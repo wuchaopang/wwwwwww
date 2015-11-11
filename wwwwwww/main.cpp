@@ -17,7 +17,8 @@ int main(int argc, const char * argv[]) {
     a[3]=50;
     p=a;
     printf("&a[0]=%x,&a[1]=%x,&a[2]=%x,&[3]=%x,a=%x,*p=%x\n",a[0],a[1],a[2],a[3],a,p);
-    
+    printf("&a[0]=%d,&a[1]=%d,&a[2]=%d,&a[3]=%d,a=%d,*p=%d\n",a[0],a[1],a[2],a[3],a,p);
+
     
     return 0;
 }
